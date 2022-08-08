@@ -36,7 +36,7 @@ class ColorThief(object):
         """
         self.image = image
 
-    @staticmethod
+    @classmethod
     def from_file(cls, file):
         return cls(Image.open(file))
 
